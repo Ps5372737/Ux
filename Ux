@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - AI Company</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Transforming Industries with Superintelligent AI</h1>
+      <p>Building a smarter future with advanced AI technologies that drive innovation and growth.</p>
+      <div class="cta-buttons">
+        <a href="#about" class="cta-button">Learn More</a>
+        <a href="#contact" class="cta-button secondary">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero-animation">
+      <!-- You can use JavaScript or CSS animations for dynamic visuals -->
+      <img src="hero-visual.png" alt="Futuristic AI graphics">
+    </div>
+  </section>
+
+  <!-- Core Products & Services -->
+  <section class="products-services">
+    <h2>Our Core Products & Services</h2>
+    <div class="product-card">
+      <h3>Security Software</h3>
+      <p>Next-gen security solutions to protect your business.</p>
+      <a href="#security" class="learn-more">Learn More</a>
+    </div>
+    <div class="product-card">
+      <h3>Medical Solutions</h3>
+      <p>AI-powered medical tools enhancing patient care and diagnosis.</p>
+      <a href="#medical" class="learn-more">Learn More</a>
+    </div>
+    <div class="product-card">
+      <h3>Enterprise AI Tools</h3>
+      <p>Advanced AI tools to empower businesses and drive innovation.</p>
+      <a href="#enterprise" class="learn-more">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-choose-us">
+    <h2>Why Choose Us?</h2>
+    <p>We leverage artificial superintelligence, advanced algorithms, and proprietary technology to deliver unmatched solutions across industries. Partner with us for a future driven by intelligent innovation.</p>
+    <a href="#technology" class="cta-button">Explore Our Technology</a>
+  </section>
+
+</body>
+</html>
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background: linear-gradient(145deg, #1e1e1e, #141414);
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.hero-content p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #bbbbbb;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #00ace6;
+  color: #ffffff;
+  border-radius: 6px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #008bb5;
+}
+
+.secondary {
+  background-color: #666666;
+}
+
+.hero-animation img {
+  max-width: 40%;
+}
+
+/* Products & Services */
+.products-services {
+  padding: 60px;
+  background-color: #111111;
+  text-align: center;
+}
+
+.products-services h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  background: #1a1a1a;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 28%;
+  color: #ffffff;
+}
+
+.product-card h3 {
+  font-size: 1.5em;
+  color: #00ace6;
+}
+
+.learn-more {
+  color: #00ace6;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Why Choose Us */
+.why-choose-us {
+  padding: 60px;
+  text-align: center;
+  background-color: #0d0d0d;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5em;
+}
+
+.why-choose-us p {
+  font-size: 1.2em;
+  color: #aaaaaa;
+  max-width: 70%;
+  margin: 20px auto;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - AI Company</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- About Us Section -->
+  <section class="about-us">
+    <h1>About Us</h1>
+    <p>Our mission is to revolutionize industries with superintelligent AI, driving innovations that enhance lives and transform businesses.</p>
+    <p>Founded by experts in AI and technology, we’re committed to pushing the boundaries of what’s possible with artificial intelligence. Our team is passionate about leveraging AI to tackle complex problems and deliver real-world solutions.</p>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team">
+    <h2>Meet Our Team</h2>
+    <div class="team-member">
+      <img src="team-member1.jpg" alt="Team Member">
+      <h3>Dr. Jane Smith</h3>
+      <p>Chief Scientist</p>
+    </div>
+    <div class="team-member">
+      <img src="team-member2.jpg" alt="Team Member">
+      <h3>John Doe</h3>
+      <p>Head of Engineering</p>
+    </div>
+    <div class="team-member">
+      <img src="team-member3.jpg" alt="Team Member">
+      <h3>Mary Johnson</h3>
+      <p>Lead AI Researcher</p>
+    </div>
+  </section>
+
+</body>
+</html>
+/* About Us Section */
+.about-us {
+  padding: 60px;
+  text-align: center;
+  background-color: #0d0d0d;
+}
+
+.about-us h1 {
+  font-size: 2.5em;
+  color: #00ace6;
+}
+
+.about-us p {
+  font-size: 1.2em;
+  color: #cccccc;
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+/* Team Section */
+.team {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  background-color: #111111;
+}
+
+.team-member {
+  margin: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-member h3 {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin: 10px 0 5px;
+}
+
+.team-member p {
+  color: #00ace6;
+}
